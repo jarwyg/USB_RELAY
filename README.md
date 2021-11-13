@@ -2,6 +2,8 @@
 
 Small program to control USB Relay board from LC Technology
 
+# Communication Protocol
+
 Baud: 9600
 
 LC USB switch communication protocol
@@ -20,4 +22,20 @@ Open the USB switch: A0 01 01 A2
 
 Close the USB switch: A0 01 00 A1
 
+# Serial port library
+
 Serial port library: https://gitlab.com/Teuniz/RS-232/
+
+# How to build
+
+```
+sudo apt install make g++
+make
+```
+
+If you want copy binary to /usr/bin/ run
+
+```
+sudo make install
+```
+

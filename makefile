@@ -14,3 +14,6 @@ usb_relay: $(OBJ)
 
 clean:
 	rm -f *.o usb_relay 
+
+install:
+	cp usb_relay /usr/bin/usb_relay
