@@ -30,6 +30,7 @@ Serial port library: https://gitlab.com/Teuniz/RS-232/
 
 ```
 sudo apt install make g++
+cd USB_RELAY
 make
 ```
 
